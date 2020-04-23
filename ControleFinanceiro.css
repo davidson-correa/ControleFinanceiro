@@ -1,0 +1,10 @@
+.barra-superior, .titulo, h1, table, body, #conteudo, #VisaoGeral, #ControleDeCompras, #Outro {padding:0;margin:0}
+.barra-superior {background-color:#E1BD08;top:0px;height:100px}
+.titulo {height:60%}
+.menu-superior {height:40%}
+h1, table {font-family: 'Faustina', serif;color:#A0550F;}
+h1, th {text-align:center}
+table {width:100%}
+th {width:33%;color:#121627}
+p.introd {color:#E1E1E1;text-align:center;}
+body {font-family: 'Faustina', serif;background-color:#121627;height:100%;}
