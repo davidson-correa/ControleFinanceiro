@@ -1,10 +1,18 @@
-.barra-superior, .titulo, h1, table, body, #conteudo, #VisaoGeral, #ControleDeCompras, #Outro {padding:0;margin:0}
+.barra-superior, .titulo, .MenuDoConteudo, h1, table, body, #conteudo, #VisaoGeral, #ControleDeCompras, #Outro {border:0;padding:0;margin:0}
 .barra-superior {background-color:#E1BD08;top:0px;height:100px}
 .titulo {height:60%}
 .menu-superior {height:40%}
-h1, table {font-family: 'Faustina', serif;color:#A0550F;}
+.MenuDoConteudo {margin-top: 12px}
+.MenuDoConteudo span {background-color: #E1BD08;border: 2px solid #121627; padding:10px;position:relative;}
+.MenuDoConteudo a:hover {background-color:#FCD40D}
+#VisaoGeral, #ControleDeCompras, #Outro {position:absolute;top:100px;width:100%}
+#ControleDeCompras, #Outro {visibility: hidden}
+h1, table, a {font-family: 'Faustina', serif;color:#A0550F;}
 h1, th {text-align:center}
 table {width:100%}
-th {width:33%;color:#121627}
+a {text-decoration: none;color:#121627;}
+th {width: 33%}
+th a {padding: 10px;}
+th a:hover {background-color:#FCD40D}
 p.introd {color:#E1E1E1;text-align:center;}
 body {font-family: 'Faustina', serif;background-color:#121627;height:100%;}
