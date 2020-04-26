@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Faustina&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./ControleFinanceiro.css">
     <meta charset="utf-8">
@@ -14,9 +17,9 @@
       <div class="menu-superior">
         <table>
           <tr>
-            <th><a href="#">Visão Geral</a></th>
-            <th><a href="#">Controle de Compras</a></th>
-            <th><a href="#">Outro</a></th>
+            <th><button>Visão Geral</button></th>
+            <th><button>Controle de Compras</button></th>
+            <th><button>Outro</button></th>
           </tr>
         </table>
       </div>
@@ -24,19 +27,20 @@
     <div id="conteudo">
       <div id="VisaoGeral">
         <div class="MenuDoConteudo">
-          <a href="#">Ação 1</a>
-          <a href="#">Ação 2</a>
-          <a href="#">Ação 3</a>
-          <a href="#">Ação 4</a>
-          <a href="#">Ação 5</a>
-          <a href="#">Ação 6</a>
-          <a href="#">Ação 7</a>
-          <a href="#">Ação 8</a>
-          <a href="#">Ação 9</a>
-          <a href="#">Ação 10</a>
-          <a href="#">Ação 11</a>
-          <a href="#">Ação 12</a>
-          <p class="introd">Esta é uma introdução...<br>Aqui veremos a tabela geral anual</p>
+          <button>Ação 1</button>
+          <button>Ação 2</button>
+          <button>Ação 3</button>
+          <button>Ação 4</button>
+          <button>Ação 5</button>
+          <button>Ação 6</button>
+          <button>Ação 7</button>
+          <button>Ação 8</button>
+          <button>Ação 9</button>
+          <button>Ação 10</button>
+          <button>Ação 11</button>
+          <button>Ação 12</button>
+        </div>
+          <h3 class="introd">Visão Geral do Planejamento</h3>
           <table class="TabelaConteudo" style="width:90%;margin-top:20px;margin-left:5%">
             <tbody>
               <tr>
@@ -53,7 +57,16 @@
                 <td>Saláro LFDA MG</td>
                 <td>$3400</td>
                 <td>$3400</td>
-                <td>Alterar</td>
+                <td>
+                  <input list="Actions">
+                    <datalist id="Actions">
+                      <option value="Ação 1">
+                      <option value="Ação 2">
+                      <option value="Ação 3">
+                      <option value="Ação 4">
+                      <option value="Ação 5">
+                    </datalist>
+                </td>
               </tr>
               <tr>
                 <td>Imóvel</td>
@@ -61,7 +74,16 @@
                 <td>Pagamento de Aluguel</td>
                 <td>R$870,00</td>
                 <td>R$870,00</td>
-                <td>Alterar</td>
+                <td>
+                  <input list="Actions">
+                    <datalist id="Actions">
+                      <option value="Ação 1">
+                      <option value="Ação 2">
+                      <option value="Ação 3">
+                      <option value="Ação 4">
+                      <option value="Ação 5">
+                    </datalist>
+                </td>
               </tr>
               <tr>
                 <td>Móvel</td>
@@ -69,11 +91,20 @@
                 <td>Máquina de Lavar nova</td>
                 <td>R$100,00</td>
                 <td>R$100,00</td>
-                <td>Alterar</td>
+                <td>
+                  <input list="Actions">
+                    <datalist id="Actions">
+                      <option value="Ação 1">
+                      <option value="Ação 2">
+                      <option value="Ação 3">
+                      <option value="Ação 4">
+                      <option value="Ação 5">
+                    </datalist>
+                </td>
               </tr>
             </tbody>
           </table>
-        </div>
+
       </div>
       <div id="ControleDeCompras">
         <p class="introd">Esta é uma introdução...<br>Aqui veremos a tabela de compras</p>
