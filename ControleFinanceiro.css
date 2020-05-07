@@ -2,18 +2,21 @@
 .barra-superior {background-color:#E1BD08;top:0px;height:100px}
 .titulo {height:60%}
 .menu-superior {height:40%}
-.MenuDoConteudo {margin-top: 12px;width: 90%;margin-left: 5%}
+.MenuDoConteudo {margin-top: 12px;}
+.MenuDoConteudo, #VisaoGeral {width: 90%;margin-left: 5%}
 .TabelaConteudo tbody tr th,td{border:solid 1px #A0550F; padding:10px}
 .TabelaConteudo tbody tr td {color:#E1E1E1}
-#VisaoGeral, #ControleDeCompras, #Outro {position:absolute;top:100px;width:100%}
+.row, .row-cols-3, .row-cols-sm-6, .row-cols-md-12 {color:#E1E1E1}
+.col {text-align: center;}
+.divisoria {width: 100%; height: 20px}
+.introd {color:#E1E1E1;text-align:center;}
+#VisaoGeral, #ControleDeCompras, #Outro {position:absolute;top:100px;}
 #ControleDeCompras, #Outro {visibility: hidden}
 h1, h3, table {font-family: 'Faustina', serif;color:#A0550F;text-align: center;}
-h3 {margin-top:10px}
 datalist   {background-color: black}
 /*h1, th {text-align:center}*/
 table {width:100%}
-button {color:#121627;background-color:#E1BD08;border:0;padding:0;padding:5px;}
+button {color:#121627;background-color:#E1BD08;border:0;padding:0;padding:5px;width: 100%}
 button:hover {background-color:#FCD40D}
 th {width: 33%}
-.introd {color:#E1E1E1;text-align:center;}
 body {font-family: 'Faustina', serif;background-color:#121627;height:100%;}
