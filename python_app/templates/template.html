@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Faustina&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/ControleFinanceiro.css">
+    <meta charset="utf-8">
+    <title>Controle Financeiro</title>
+  </head>
+  <body>
+    <div class="barra-superior">
+      <div class="titulo">
+        <h1>Controle Financeiro . $$</h1>
+      </div>
+      <div class="menu-superior">
+        <table>
+          <tr>
+            <th><button class="menus">Visão Geral</button></th>
+            <th><button class="menus">Controle de Compras</button></th>
+            <th><button class="menus">Outro</button></th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="conteudo">
+        <!--div class="MenuDoConteudo">
+          <button>Ação 1</button>
+          <button>Ação 2</button>
+          <button>Ação 3</button>
+          <button>Ação 4</button>
+          <button>Ação 5</button>
+        </div-->
+        <div id="VisaoGeral">
+          <div class="divisoria"></div>
+          <h3 class="introd">{{ titulo }}</h3>
+          <div class="divisoria"></div>
+          <div class="container">
+            <div class="row row-cols-3 row-cols-sm-6 row-cols-md-12">
+              <div class="col"><button class="meses">JAN</button></div>
+              <div class="col"><button class="meses">FEV</button></div>
+              <div class="col"><button class="meses">MAR</button></div>
+              <div class="col"><button class="meses">ABR</button></div>
+              <div class="col"><button class="meses">MAI</button></div>
+              <div class="col"><button class="meses">JUN</button></div>
+              <div class="col"><button class="meses">JUL</button></div>
+              <div class="col"><button class="meses">AGO</button></div>
+              <div class="col"><button class="meses">SET</button></div>
+              <div class="col"><button class="meses">OUT</button></div>
+              <div class="col"><button class="meses">NOV</button></div>
+              <div class="col"><button class="meses">DEZ</button></div>
+            </div>
+          </div>
+          <div class="divisoria"></div>
+          <table class="TabelaConteudo">
+          <!--table class="table-dark"-->
+            <tbody>
+              <tr>
+                <th style="width:16%">Grupo</th>
+                <th style="width:16%">Tipo</th>
+                <th style="width:18%">Descrição</th>
+                <th style="width:16%">Valor Planejado</th>
+                <th style="width:16%">Valor consumado</th>
+              </tr>
+              <tr>
+                <td>Salário Mensal</td>
+                <td>Receita Efetiva</td>
+                <td>Saláro LFDA MG</td>
+                <td>$3400</td>
+                <td>$3400</td>
+              </tr>
+              <tr>
+                <td>Imóvel</td>
+                <td>Despesa Efetiva</td>
+                <td>Pagamento de Aluguel</td>
+                <td>R$870,00</td>
+                <td>R$870,00</td>
+              </tr>
+              <tr>
+                <td>Móvel</td>
+                <td>Despesa Planejada</td>
+                <td>Máquina de Lavar nova</td>
+                <td>R$100,00</td>
+                <td>R$100,00</td>
+              </tr>
+            </tbody>
+          </table>
+          <h3>Testes bootstrap</h3>
+
+      </div>
+      <div id="ControleDeCompras">
+        <p class="introd">Esta é uma introdução...<br>Aqui veremos a tabela de compras</p>
+      </div>
+      <div id="Outro">
+        <p class="introd">Esta é uma introdução...<br>Aqui veremos outro conteudo</p>
+      </div>
+    </div>
+
+  </body>
+</html>
