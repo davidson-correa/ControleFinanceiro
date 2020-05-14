@@ -1,0 +1,20 @@
+{% extends "template.html" %}
+
+{% block titulo3 %}
+  Planejamento Geral Anual
+{% endblock %}
+
+{% block tablebody %}
+  <tr>
+    {% for tcabecalho in tcabecalhos %}
+      <th class="tcabecalho">{{ tcabecalho }}</th>
+    {% endfor %}
+  </tr>
+  {% for dados in tdados %}
+  <tr>
+    {% for dado in dados %}
+      <td>{{ dado }}</td>
+    {% endfor %}
+  </tr>
+  {% endfor %}
+{% endblock %}
