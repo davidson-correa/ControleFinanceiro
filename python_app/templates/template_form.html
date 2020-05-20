@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Faustina&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/ControleFinanceiro.css">
+    <meta charset="utf-8">
+    <title>Controle Financeiro</title>
+  </head>
+  <body>
+    <div class="barra-superior">
+      <div class="titulo">
+        <!--h1>Controle Financeiro . $$</h1-->
+        <h1>{% block titulo %}{% endblock %}</h1>
+      </div>
+    </div>
+    <div class="divisoria"></div>
+    <div id="formulario">
+        {% block formulario %}{% endblock %}
+    </div>
+
+  </body>
+</html>

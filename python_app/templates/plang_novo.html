@@ -1,0 +1,38 @@
+{% extends "template_form.html" %}
+
+{% block titulo %}
+  Novo plano Mensal
+{% endblock %}
+
+{% block formulario %}
+
+
+
+    <form action="{{ url_for('planejamento_geral') }}" method="POST">
+      <div class="form-group">
+        <input type="text" class="form-control" name="grupo" placeholder="Grupo de receitas/despesas">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" name="descricao" placeholder="Descrição da receita/despesa">
+      </div>
+
+        <select class="form-control" name="tipo">
+          <option value="Receita">Receita</option>
+          <option value="Despesa Efetiva">Despesa Efetiva</option>
+          <option value="Despesa Planejada">Despesa Planejado</option>
+        </select>
+
+      <div class="form-group">
+        <input type="number" name="valorplanejado" value="" placeholder="Valor Planejado">
+      </div>
+      <div class="form-group">
+        <input type="number" name="valorconsumado" value="0" placeholder="Valor Consumado">
+      </div>
+      <div class="form-group"
+        <button type="submit" name="salvar">Salvar</button>
+      </div>
+    </form>
+
+
+
+{% endblock %}
