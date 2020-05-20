@@ -14,7 +14,7 @@
 .meses, h3, table {color:#CF6E14;}
 .meses, h3, table, h1 {font-family: 'Faustina', serif;text-align: center;}
 .meses, .menus {font-weight: bold;}
-#VisaoGeral {width: 90%; margin-left: 5%}
+#VisaoGeral, .form-group, .form-control {width: 90%; margin-left: 5%}
 #VisaoGeral .tcabecalho {width: 20%}
 #VisaoGeral {position:absolute;top:100px;}
 /*#ControleDeCompras, #Outro {visibility: hidden}*/
